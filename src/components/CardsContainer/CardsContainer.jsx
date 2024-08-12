@@ -1,4 +1,4 @@
-import './PostCards.css'
+import './CardsContainer.css'
 
 const PostCards = () => {
     return ( 
