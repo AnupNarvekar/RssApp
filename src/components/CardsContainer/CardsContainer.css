@@ -1,6 +1,21 @@
-.postCardsContainer {
+.cardsContainer {
     height: 100vh;
-    width: 30%;
+    width: 25%;
     min-width: 300px;
-    background: #444444;
+    overflow: auto;
+}
+
+.filtersConatiner>p, .catTitle p{
+    padding: 10px 8px;
+    font-weight: bold;
+}
+
+
+.cardsContainer::-webkit-scrollbar{
+    background: #e9e9e9;
+    width: 2px;
+}
+
+.cardsContainer::-webkit-scrollbar-thumb{
+    background: #bebebe;
 }

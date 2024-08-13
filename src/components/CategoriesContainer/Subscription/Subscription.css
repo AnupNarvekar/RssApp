@@ -1,0 +1,31 @@
+.subscriptionContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 8px;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.subscriptionContainer:hover {
+    background-color: #f3f3f3;
+}
+
+.subscriptionTitle {
+    text-transform: capitalize;
+    margin-right: auto;
+    font-weight: 500;
+}
+
+.material-symbols-rounded.folderIcon {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+
+    color: #1483eb;
+}
+
+.subscriptionUnreadCount{
+    font-size: 0.8em;
+}

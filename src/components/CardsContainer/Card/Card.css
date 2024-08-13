@@ -1,0 +1,69 @@
+.cardCcontainer {
+    padding: 8px;
+    /* background-color: white; */
+    text-transform: capitalize;
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+}
+
+.cardCcontainer:hover {
+    background-color: #f3f3f3;
+}
+
+.cardUpperSection>div:first-child>p {
+    position: relative;
+    display: inline;
+    padding-left: 8px;
+    top: -8px;
+}
+
+.cardCcontainer.selected{
+    background-color: #B3D7FE;
+}
+
+.cardUpperSection {
+    display: flex;
+    gap: 8px;
+
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    max-width: 100px;
+    height: 10%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardLowerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9em;
+}
+
+.cardLowerSection>div {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: blue;
+}
+
+.read{
+    visibility: hidden;
+}
+
+.cardLowerSection p:last-child {
+    margin-left: auto;
+    text-transform: lowercase;
+}

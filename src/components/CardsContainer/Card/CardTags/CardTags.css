@@ -1,0 +1,12 @@
+.cardTags {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    padding-left: 12px;
+}
+
+.cardTags>li {
+    font-size: 0.8em;
+    padding: 4px;
+    list-style: none;
+}

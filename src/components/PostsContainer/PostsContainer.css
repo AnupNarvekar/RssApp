@@ -1,5 +1,54 @@
 .postsContainer {
     height: 100vh;
-    width: 50%;
-    background: #333333;
+    width: 60%;
+    padding: 2% 5%;
+    overflow: auto;
+}
+
+.postsContainer p {
+    margin: 16px 0;
+}
+
+.postsContainer::-webkit-scrollbar {
+    background: #e9e9e9;
+    width: 2px;
+}
+
+.postsContainer::-webkit-scrollbar-thumb {
+    background: #bebebe;
+}
+
+.noSelection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20%;
+    margin-top: 25%;
+}
+
+.noSelection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.selection{
+    width: 100%;
+}
+
+.selection img {
+    width: 100%;
+}
+
+.imageCredit {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
+    padding-bottom: 16px;
+}
+
+.details p {
+    display: inline-block;
+    padding: 0 1%;
 }
