@@ -10,6 +10,11 @@
     background-color: #f3f3f3;
 }
 
+.subscriptionContainer.selected {
+    background-color: #cfe6ff;
+    transition: 800ms ease-out;
+}
+
 .subscriptionTitle {
     text-transform: capitalize;
     margin-right: auto;
@@ -26,6 +31,6 @@
     color: #1483eb;
 }
 
-.subscriptionUnreadCount{
+.subscriptionUnreadCount {
     font-size: 0.8em;
 }
