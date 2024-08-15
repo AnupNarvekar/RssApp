@@ -148,10 +148,10 @@ const data = [
     }
 ]
 
-const CardsContainer = () => {
+const CardsContainer = ({ handleClick }) => {
     return (
         <div className="cardsContainer">
-            {data.map(item => <Card {...item} key={item.id} />)}
+            {data.map(item => <Card {...item} key={item.id} updateContent={handleClick} />)}
         </div>
     );
 }

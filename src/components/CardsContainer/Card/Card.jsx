@@ -5,13 +5,13 @@ import calculateElapsedTime from '../../../utils/elapsedTimeCalculator'
 
 
 
-const Card = ({ title, imageURL, isRead, tags, source, time }) => {
+const Card = ({ title, imageURL, isRead, tags, source, time, updateContent }) => {
     time = calculateElapsedTime(time);
-
     let [isSelected, setIsSelected] = useState(false);
 
     const handleClick = () => {
         setIsSelected(!isSelected);
+        updateContent();
     }
 
     return (
